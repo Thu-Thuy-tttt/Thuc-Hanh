@@ -26,3 +26,5 @@ Route::get('/trang1','App\Http\Controllers\ViduLayoutController@trang1');
 Route::get('/sach','App\Http\Controllers\ViduLayoutController@sach');
 Route::get('/sach/theloai/{id}','App\Http\Controllers\ViduLayoutController@theloai');
 Route::get('/sach/chitiet/{id}','App\Http\Controllers\ViduLayoutController@chitiet');
+
+Route::get('/ten','App\Http\Controllers\ViduController@viduten');
